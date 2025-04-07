@@ -88,30 +88,38 @@
 //             console.log("Broken Light");      
 // }
 
-let day = 4;
+// let day = 4;
 
-switch (day){
-    case 1 :
-        console.log("Sunday");
-        break;
-        case 2 :
-            console.log("Monday");
-            break;
-            case 3 :
-                console.log("Tuesday");
-                break;
-                case 4 :
-                    console.log("Wednesday");
-                    break;
-                    case 5 :
-                        console.log("Thursday");
-                        break;
-                        case 6 :
-                            console.log("Friday");
-                            break;
-                            case 7 :
-                                console.log("Saturday");
-                                break;  
-                                default :
-                                console.log("Wrong Day!");                 
-}
+// switch (day){
+//     case 1 :
+//         console.log("Sunday");
+//         break;
+//         case 2 :
+//             console.log("Monday");
+//             break;
+//             case 3 :
+//                 console.log("Tuesday");
+//                 break;
+//                 case 4 :
+//                     console.log("Wednesday");
+//                     break;
+//                     case 5 :
+//                         console.log("Thursday");
+//                         break;
+//                         case 6 :
+//                             console.log("Friday");
+//                             break;
+//                             case 7 :
+//                                 console.log("Saturday");
+//                                 break;  
+//                                 default :
+//                                 console.log("Wrong Day!");                 
+// }
+
+// ? Alerts And Prompts
+console.log("This is a simple log.");
+console.error("This is an error log.");
+console.warn("This is a warning message");
+
+let firstName = prompt("Enter your name :");
+console.log(firstName);
