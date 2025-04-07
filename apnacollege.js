@@ -25,9 +25,36 @@
 //     console.log('Price is Rs.50'); 
 // }
 // ? Nested if-else statements
-let marks = 45;
-if (marks >= 33){
-    console.log("Pass");
-}else{
-    console.log("Better luck next time!");
-}
+// let marks = 45;
+// if (marks >= 33){
+//     console.log("Pass");
+// }else{
+//     console.log("Better luck next time!");
+// }
+// ? Logical Operators
+// let marks = 75;
+// if (marks>= 33 && marks>=80){
+//     console.log("Pass");
+//     console.log("A+");
+// }
+
+// let marks = 75;
+// if (marks>= 33 || marks>=80){
+//     console.log("Pass");
+//     console.log("A+");
+// }
+
+// let marks = 75;
+// if (!marks>= 33){
+//     console.log("Pass");
+//     console.log("A+");
+// }
+
+
+// let marks = 23;
+// if (marks>= 33 && marks<= 80 || !false){
+//     console.log("Pass");
+//     console.log("A+");
+// }
+
+
