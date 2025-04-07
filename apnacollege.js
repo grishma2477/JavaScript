@@ -57,9 +57,16 @@
 //     console.log("A+");
 // }
 
-let goodString = "apple";
-if (goodString[0] === 'a' && (goodString.length>3)){
-    console.log("String is good.");
-}else {
-    console.log("String is not good");
+// let goodString = "apple";
+// if (goodString[0] === 'a' && (goodString.length>3)){
+//     console.log("String is good.");
+// }else {
+//     console.log("String is not good");
+// }
+
+// ? Truthy and Falsy
+if(1){
+    console.log("It has true value.");
+}else{
+    console.log("It has false value.");
 }
