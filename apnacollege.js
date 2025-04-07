@@ -72,18 +72,46 @@
 // }
 
 // ? Switch Statements
-let color = "red";
+// let color = "red";
 
-switch (color){
-    case "red" :
-        console.log("stop");
+// switch (color){
+//     case "red" :
+//         console.log("stop");
+//         break;
+//         case "yellow" :
+//             console.log("slow down");
+//             break;
+//             case "green" :
+//                 console.log("GO");break
+//                 break;
+//                 default :
+//             console.log("Broken Light");      
+// }
+
+let day = 4;
+
+switch (day){
+    case 1 :
+        console.log("Sunday");
         break;
-        case "yellow" :
-            console.log("slow down");
+        case 2 :
+            console.log("Monday");
             break;
-            case "green" :
-                console.log("GO");break
+            case 3 :
+                console.log("Tuesday");
                 break;
-                default :
-            console.log("Broken Light");      
+                case 4 :
+                    console.log("Wednesday");
+                    break;
+                    case 5 :
+                        console.log("Thursday");
+                        break;
+                        case 6 :
+                            console.log("Friday");
+                            break;
+                            case 7 :
+                                console.log("Saturday");
+                                break;  
+                                default :
+                                console.log("Wrong Day!");                 
 }
