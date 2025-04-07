@@ -65,8 +65,25 @@
 // }
 
 // ? Truthy and Falsy
-if(1){
-    console.log("It has true value.");
-}else{
-    console.log("It has false value.");
+// if(1){
+//     console.log("It has true value.");
+// }else{
+//     console.log("It has false value.");
+// }
+
+// ? Switch Statements
+let color = "red";
+
+switch (color){
+    case "red" :
+        console.log("stop");
+        break;
+        case "yellow" :
+            console.log("slow down");
+            break;
+            case "green" :
+                console.log("GO");break
+                break;
+                default :
+            console.log("Broken Light");      
 }
