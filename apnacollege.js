@@ -174,10 +174,14 @@
 //     console.log("Num3 is the largest. ");
 // }
 
-let num1 = 32;
-let num2 = 47852;
-if (`${num1}`[-1] === `${num2}`[-1]){
-    console.log("They have the same last digit. ");
-}else{
-    console.log("They don't");
-}
+// let num1 = 32;
+// let num2 = 47852;
+// if (`${num1}`[-1] === `${num2}`[-1]){
+//     console.log("They have the same last digit. ");
+// }else{
+//     console.log("They don't");
+// }
+
+
+let msg = "      Hello             ";
+console.log(msg.trim());
