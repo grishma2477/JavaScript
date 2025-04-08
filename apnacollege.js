@@ -117,9 +117,67 @@
 // }
 
 // ? Alerts And Prompts
-console.log("This is a simple log.");
-console.error("This is an error log.");
-console.warn("This is a warning message");
+// console.log("This is a simple log.");
+// console.error("This is an error log.");
+// console.warn("This is a warning message");
 
-let firstName = prompt("Enter your name :");
-console.log(firstName);
+// let firstName = prompt("Enter your name :");
+// console.log(firstName);
+
+// ? Practice Questions
+
+// let num = 5;
+// if (num%10==0){
+//     console.log("Good");
+// }else{
+//     console.log("Bad");
+// }
+
+// let userName = prompt("Enter your name : ");
+// let age = prompt("Enter your age : ");
+// console.log(`${userName} is ${age} years old.`);
+
+// let quarter = 4;
+
+// switch(quarter){
+//     case 1 :
+//         console.log("January, February, March");
+//         break;
+//         case 2 :
+//             console.log("April, May, June");
+//             break;
+//             case 3 :
+//                 console.log("July, August, September");
+//                 break;
+//                 case 4 :
+//                     console.log("October, November, December");
+//                     break;
+//                     default :
+//                     console.log("Nothing ! ");                  
+// }
+
+// let string = "Apples";
+// if (string[0]=== "A" || "a" && string.length>5){
+//     console.log("Golden String");
+// }else{
+//     console.log("Not golden string");
+// }
+
+// let num1 = 5;
+// let num2 = 10;
+// let num3 = 15;
+// if (num1>num2 && num1>num3){
+//     console.log("Num1 is the largest.");
+// }else if(num2>num1 && num2>num3){
+//     console.log("Num2 is the largest.");
+// }else{
+//     console.log("Num3 is the largest. ");
+// }
+
+let num1 = 32;
+let num2 = 47852;
+if (`${num1}`[-1] === `${num2}`[-1]){
+    console.log("They have the same last digit. ");
+}else{
+    console.log("They don't");
+}
