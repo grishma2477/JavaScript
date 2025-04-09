@@ -183,5 +183,33 @@
 // }
 
 
-let msg = "      Hello             ";
-console.log(msg.trim());
+// let msg = "      Hello             ";
+// console.log(msg.trim());
+
+// let str = "Random string";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// let str = "ILoveCoding";
+// console.log(str);
+// console.log(str.indexOf("Love"));
+// console.log(str.indexOf("o"));
+// console.log(str.indexOf("love"));
+// console.log(str.indexOf("z"));
+
+
+// let msg = "           Hello          ";
+// console.log(msg);
+// let newMsg = msg.trim();
+// console.log(newMsg);
+// newMsg = newMsg.toUpperCase();
+// console.log(newMsg);
+
+
+
+
+
+
+
+
+
