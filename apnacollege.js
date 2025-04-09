@@ -198,14 +198,21 @@
 // console.log(str.indexOf("z"));
 
 
-let msg = "           Hello          ";
+// let msg = "           Hello          ";
 // console.log(msg);
 // let newMsg = msg.trim();
 // console.log(newMsg);
 // newMsg = newMsg.toUpperCase();
 // console.log(newMsg);
-let newMsg = msg.trim().toUpperCase();
-console.log(newMsg);
+// let newMsg = msg.trim().toUpperCase();
+// console.log(newMsg);
+
+let str = "IloveCoding";
+console.log(str.slice(-4));
+
+
+
+
 
 
 
