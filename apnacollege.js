@@ -207,8 +207,19 @@
 // let newMsg = msg.trim().toUpperCase();
 // console.log(newMsg);
 
-let str = "IloveCoding";
-console.log(str.slice(-4));
+// let str = "IloveCoding";
+// console.log(str.slice(-4));
+
+let msg = "IloveCoding";
+console.log(msg);
+console.log(msg.replace("love", "do"));
+console.log(msg.replace("Cod", "eat"));
+
+let str = "Mango";
+console.log(str);
+console.log(str.repeat(4));
+
+
 
 
 
