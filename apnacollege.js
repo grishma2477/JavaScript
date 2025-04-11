@@ -210,14 +210,30 @@
 // let str = "IloveCoding";
 // console.log(str.slice(-4));
 
-let msg = "IloveCoding";
-console.log(msg);
-console.log(msg.replace("love", "do"));
-console.log(msg.replace("Cod", "eat"));
+// let msg = "IloveCoding";
+// console.log(msg);
+// console.log(msg.replace("love", "do"));
+// console.log(msg.replace("Cod", "eat"));
 
-let str = "Mango";
-console.log(str);
-console.log(str.repeat(4));
+// let str = "Mango";
+// console.log(str);
+// console.log(str.repeat(4));
+
+let msg = "help!";
+console.log(msg.trim().toUpperCase());
+
+
+let name = "ApnaCollege";
+console.log(name.slice(4,9));
+console.log(name.indexOf("na"));
+console.log(name.replace("Apna", "Our"));
+console.log(name.slice(4).replace("l", "t"));
+let newStr = name.slice(4).replace("l", "t").replace("l","t");
+console.log(newStr);
+
+
+
+
 
 
 
