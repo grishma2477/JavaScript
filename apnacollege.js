@@ -219,17 +219,26 @@
 // console.log(str);
 // console.log(str.repeat(4));
 
-let msg = "help!";
-console.log(msg.trim().toUpperCase());
+// let msg = "help!";
+// console.log(msg.trim().toUpperCase());
 
 
-let name = "ApnaCollege";
-console.log(name.slice(4,9));
-console.log(name.indexOf("na"));
-console.log(name.replace("Apna", "Our"));
-console.log(name.slice(4).replace("l", "t"));
-let newStr = name.slice(4).replace("l", "t").replace("l","t");
-console.log(newStr);
+// let name = "ApnaCollege";
+// console.log(name.slice(4,9));
+// console.log(name.indexOf("na"));
+// console.log(name.replace("Apna", "Our"));
+// console.log(name.slice(4).replace("l", "t"));
+// let newStr = name.slice(4).replace("l", "t").replace("l","t");
+// console.log(newStr);
+
+// let student1 = "aman";
+// let student2 = "shradha";
+// let student3 = "rajat";
+
+let students = ["aman", "shradha", "rajat"]
+console.log(students);
+console.log(students[0]);
+
 
 
 
