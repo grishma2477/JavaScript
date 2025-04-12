@@ -256,14 +256,19 @@
 // console.log(cars.push("toyota"));
 
 let str = ["january", "july", "march", "august"];
-const sifted = str.shift() // take the janaury out and return it
-console.log(str);
-str.shift();
-console.log(str);
-str.unshift("june");
-console.log(str);
-str.unshift("july")
-console.log(str);
+// const sifted = str.shift() // take the janaury out and return it
+// console.log(str);
+// str.shift();
+// console.log(str);
+// str.unshift("june");
+// console.log(str);
+// str.unshift("july")
+// console.log(str);
+
+console.log(str.indexOf("january"));
+console.log(str.includes("march"));
+
+
 
 
 
