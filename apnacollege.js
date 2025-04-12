@@ -275,6 +275,14 @@ last = str.reverse();
 console.log(last);
 
 
+console.log(last.slice(2));
+console.log(last.slice(-2));
+console.log(last.slice(5));
+console.log(last.slice(1,3));
+
+
+
+
 
 
 
