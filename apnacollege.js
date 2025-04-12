@@ -265,8 +265,14 @@ let str = ["january", "july", "march", "august"];
 // str.unshift("july")
 // console.log(str);
 
-console.log(str.indexOf("january"));
-console.log(str.includes("march"));
+// console.log(str.indexOf("january"));
+// console.log(str.includes("march"));
+
+let months = ["april", "may"];
+final= str.concat(months);
+console.log(final);
+last = str.reverse();
+console.log(last);
 
 
 
