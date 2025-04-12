@@ -235,21 +235,50 @@
 // let student2 = "shradha";
 // let student3 = "rajat";
 
-let students = ["aman", "shradha", "rajat"];
-console.log(students);
-console.log(students[0]);
+// let students = ["aman", "shradha", "rajat"];
+// console.log(students);
+// console.log(students[0]);
 
-let nums = [2, 4, 6, 8];
-console.log(nums);
-console.log(nums[0]);
-console.log(typeof nums);
-console.log(nums.length);
+// let nums = [2, 4, 6, 8];
+// console.log(nums);
+// console.log(nums[0]);
+// console.log(typeof nums);
+// console.log(nums.length);
 
-let info = ["shradha", 23, 89.5];
-console.log(typeof info);
+// let info = ["shradha", 23, 89.5];
+// console.log(typeof info);
 
-let emp = [];
-console.log(emp[1]);
+// let emp = [];
+// console.log(emp[1]);
+
+// let cars = ["audi", "bmw", "xuv", "maruti"]
+// console.log(cars);
+// console.log(cars.push("toyota"));
+
+let str = ["january", "july", "march", "august"];
+const sifted = str.shift() // take the janaury out and return it
+console.log(str);
+str.shift();
+console.log(str);
+str.unshift("june");
+console.log(str);
+str.unshift("july")
+console.log(str);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
