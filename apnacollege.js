@@ -341,6 +341,16 @@
 //     console.log(i);
 // }
 
+// for (let i =4; i<=40; i = i+4){
+//     console.log(i);
+// }
+
+let n = prompt("Enter your number");
+n = parseInt(n);
+for (let i =n; i<=n*10; i = i + n){
+    console.log(i);
+}
+
 
 
 
