@@ -286,12 +286,24 @@
 // let chars = ["b", "c", "d", "a"];
 // console.log(chars.sort());
 
-let str = ["january", "july", "march", "august"];
-let months = str.splice(0, 2, "july", "june")
-console.log(str);
+// let str = ["january", "july", "march", "august"];
+// let months = str.splice(0, 2, "july", "june")
+// console.log(str);
 
-let programming = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
-console.log(programming.reverse().indexOf("javascript"));
+// let programming = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
+// console.log(programming.reverse().indexOf("javascript"));
+
+let arr = ["a", "b"];
+let arrCopy = arr;
+console.log(arr === arrCopy);
+arr.push("c");
+console.log(arr);
+console.log(arrCopy);
+arrCopy.pop();
+console.log(arr);
+console.log(arrCopy);
+
+
 
 
 
