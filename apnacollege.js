@@ -371,15 +371,20 @@
 //     i++;
 // }
 
-const favMovie = "Avatar";
-let guess = prompt("Guess the movie");
-while(guess!=favMovie && guess!="quit"){
-console.log("Wrong");
-guess = prompt("Guess Again");
-}
+// const favMovie = "Avatar";
+// let guess = prompt("Guess the movie");
+// while(guess!=favMovie && guess!="quit"){
+// console.log("Wrong");
+// guess = prompt("Guess Again");
+// }
 
-if (guess == favMovie){
-    console.log("congrats!!");
+// if (guess == favMovie){
+//     console.log("congrats!!");
+// }
+
+let i = 1;
+while(i<=5){
+    console.log(i);
 }
 
 
