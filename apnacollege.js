@@ -269,16 +269,25 @@ let str = ["january", "july", "march", "august"];
 // console.log(str.includes("march"));
 
 let months = ["april", "may"];
-final= str.concat(months);
-console.log(final);
-last = str.reverse();
-console.log(last);
+// final= str.concat(months);
+// console.log(final);
+// last = str.reverse();
+// console.log(last);
 
 
-console.log(last.slice(2));
-console.log(last.slice(-2));
-console.log(last.slice(5));
-console.log(last.slice(1,3));
+// console.log(last.slice(2));
+// console.log(last.slice(-2));
+// console.log(last.slice(5));
+// console.log(last.slice(1,3));
+
+console.log(str);
+console.log(str.sort());
+
+let chars = ["b", "c", "d", "a"];
+console.log(chars.sort());
+
+
+
 
 
 
