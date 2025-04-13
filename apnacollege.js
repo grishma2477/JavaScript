@@ -406,12 +406,48 @@
 // }
 
 
-let heroes = [["ironman","spiderman","thor"], ["superman", "wonder woman", "flash"]]
-for (list of heroes){
-    for(hero of list){
-    console.log(hero);
-    }
+// let heroes = [["ironman","spiderman","thor"], ["superman", "wonder woman", "flash"]]
+// for (list of heroes){
+//     for(hero of list){
+//     console.log(hero);
+//     }
+// }
+
+// let todo = [];
+
+// let req =prompt("Please enter your requests");
+// while (true){
+//     if (req == "quit"){
+//         console.log("quitting app");
+//         break;
+//     }
+
+//     if (req == "list"){
+//         console.log(".................");  
+//         for (task of todo){
+//             console.log(task);  
+//         }
+//     }
+// }
+
+let array = [7,9,0,-2];
+let ans = array.slice(0,3);
+console.log(ans);
+
+let ans1 = array.slice(1,4);
+console.log(ans1);
+
+let string = prompt("Please enter your name");
+if (string == 0){
+    console.log("String is blank"); 
 }
+else{
+    console.log("string is not blank");
+}
+
+// Write a JavaScript program
+// to test whether the character at the given(character)
+// indexislowercase.
 
 
 
