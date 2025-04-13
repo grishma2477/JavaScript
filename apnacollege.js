@@ -387,24 +387,31 @@
 //     console.log(i, fruits[i]);
 // }
 
-let heroes = [["ironman","spiderman","thor"], ["superman", "wonder woman", "flash"]]
-for (let i =0; i<heroes.length; i++){
-    console.log(i, heroes[i]);
-    for(let j=0; j<heroes[i].length; j++){
-        console.log(`j = ${j}, ${heroes[i][j]}`);
+// let heroes = [["ironman","spiderman","thor"], ["superman", "wonder woman", "flash"]]
+// for (let i =0; i<heroes.length; i++){
+//     console.log(i, heroes[i]);
+//     for(let j=0; j<heroes[i].length; j++){
+//         console.log(`j = ${j}, ${heroes[i][j]}`);
         
+//     }
+// }
+
+// let fruits = ["mango", "apple", "banana", "orange"]
+// for (fruit of fruits){
+//     console.log(fruit);
+// }
+
+// for(char of "apnacollege"){
+//     console.log(char);
+// }
+
+
+let heroes = [["ironman","spiderman","thor"], ["superman", "wonder woman", "flash"]]
+for (list of heroes){
+    for(hero of list){
+    console.log(hero);
     }
 }
-
-let fruits = ["mango", "apple", "banana", "orange"]
-for (fruit of fruits){
-    console.log(fruit);
-}
-
-for(char of "apnacollege"){
-    console.log(char);
-}
-
 
 
 
