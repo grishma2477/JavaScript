@@ -255,7 +255,7 @@
 // console.log(cars);
 // console.log(cars.push("toyota"));
 
-let str = ["january", "july", "march", "august"];
+// let str = ["january", "july", "march", "august"];
 // const sifted = str.shift() // take the janaury out and return it
 // console.log(str);
 // str.shift();
@@ -268,7 +268,7 @@ let str = ["january", "july", "march", "august"];
 // console.log(str.indexOf("january"));
 // console.log(str.includes("march"));
 
-let months = ["april", "may"];
+// let months = ["april", "may"];
 // final= str.concat(months);
 // console.log(final);
 // last = str.reverse();
@@ -280,11 +280,18 @@ let months = ["april", "may"];
 // console.log(last.slice(5));
 // console.log(last.slice(1,3));
 
-console.log(str);
-console.log(str.sort());
+// console.log(str);
+// console.log(str.sort());
 
-let chars = ["b", "c", "d", "a"];
-console.log(chars.sort());
+// let chars = ["b", "c", "d", "a"];
+// console.log(chars.sort());
+
+let str = ["january", "july", "march", "august"];
+let months = str.splice(0, 2, "july", "june")
+console.log(str);
+
+let programming = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
+console.log(programming.reverse().indexOf("javascript"));
 
 
 
