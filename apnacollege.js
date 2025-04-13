@@ -293,15 +293,25 @@
 // let programming = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
 // console.log(programming.reverse().indexOf("javascript"));
 
-let arr = ["a", "b"];
-let arrCopy = arr;
-console.log(arr === arrCopy);
-arr.push("c");
+// let arr = ["a", "b"];
+// let arrCopy = arr;
+// console.log(arr === arrCopy);
+// arr.push("c");
+// console.log(arr);
+// console.log(arrCopy);
+// arrCopy.pop();
+// console.log(arr);
+// console.log(arrCopy);
+
+const arr= [1,2,3];
 console.log(arr);
-console.log(arrCopy);
-arrCopy.pop();
+arr.push(4);
 console.log(arr);
-console.log(arrCopy);
+arr.pop();
+console.log(arr);
+
+
+
 
 
 
