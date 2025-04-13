@@ -316,9 +316,15 @@
 // console.log(nums[0][0]);
 // console.log(nums);
 
-let game = [["X", null, "0"], [null, "X", null], ["0", null, "X"]];
-console.log(game);
-console.log(game);
+// let game = [["X", null, "0"], [null, "X", null], ["0", null, "X"]];
+// console.log(game);
+// console.log(game);
+
+for(let i =1; i<=10; i++){
+    console.log(i);
+}
+
+
 
 
 
