@@ -396,6 +396,14 @@ for (let i =0; i<heroes.length; i++){
     }
 }
 
+let fruits = ["mango", "apple", "banana", "orange"]
+for (fruit of fruits){
+    console.log(fruit);
+}
+
+for(char of "apnacollege"){
+    console.log(char);
+}
 
 
 
