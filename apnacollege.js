@@ -365,10 +365,21 @@
 //     i++;
 // }
 
-let i = 0;
-while(i <= 20){
-    console.log(i);
-    i++;
+// let i = 0;
+// while(i <= 20){
+//     console.log(i);
+//     i++;
+// }
+
+const favMovie = "Avatar";
+let guess = prompt("Guess the movie");
+while(guess!=favMovie && guess!="quit"){
+console.log("Wrong");
+guess = prompt("Guess Again");
+}
+
+if (guess == favMovie){
+    console.log("congrats!!");
 }
 
 
