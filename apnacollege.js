@@ -310,11 +310,17 @@
 // arr.pop();
 // console.log(arr);
 
-let nums = [ [1,2], [3,4], [4,5]];
-console.log(nums.length);
-console.log(nums[0].length);
-console.log(nums[0][0]);
-console.log(nums);
+// let nums = [ [1,2], [3,4], [4,5]];
+// console.log(nums.length);
+// console.log(nums[0].length);
+// console.log(nums[0][0]);
+// console.log(nums);
+
+let game = [["X", null, "0"], [null, "X", null], ["0", null, "X"]];
+console.log(game);
+console.log(game);
+
+
 
 
 
