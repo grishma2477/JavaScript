@@ -303,12 +303,22 @@
 // console.log(arr);
 // console.log(arrCopy);
 
-const arr= [1,2,3];
-console.log(arr);
-arr.push(4);
-console.log(arr);
-arr.pop();
-console.log(arr);
+// const arr= [1,2,3];
+// console.log(arr);
+// arr.push(4);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+
+let nums = [ [1,2], [3,4], [4,5]];
+console.log(nums.length);
+console.log(nums[0].length);
+console.log(nums[0][0]);
+console.log(nums);
+
+
+
+
 
 
 
