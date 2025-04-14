@@ -526,26 +526,45 @@
 // console.log(classInfo.grishma.marks);
 // console.log(classInfo.grishma.marks);
 
-const classInfo = [
-    {
-        name: "grishma",
-        age: 19,
-        marks: 98,
-        city: "Sydney"
-    },
-    {
-        name: "sandip",
-        age: 24,
-        marks: 100,
-        city: "Sydney"
-    }
-];
-console.log(classInfo);
-console.log(classInfo[0]);
-console.log(classInfo[0].marks);
-console.log(classInfo[1]);
-console.log(classInfo[1].age);
-console.log(classInfo);
+// const classInfo = [
+//     {
+//         name: "grishma",
+//         age: 19,
+//         marks: 98,
+//         city: "Sydney"
+//     },
+//     {
+//         name: "sandip",
+//         age: 24,
+//         marks: 100,
+//         city: "Sydney"
+//     }
+// ];
+// console.log(classInfo);
+// console.log(classInfo[0]);
+// console.log(classInfo[0].marks);
+// console.log(classInfo[1]);
+// console.log(classInfo[1].age);
+// console.log(classInfo);
+
+// let step1 = Math.random();
+// let step2 = step1 * 10;
+// let step3 = Math.floor(step2);
+// console.log(step3);
+
+// let random = Math.floor(Math.random()* 10)+1;
+// console.log(random);
+
+// let random = Math.floor(Math.random()*100) + 1;
+// console.log(random);
+
+// let random = Math.floor(Math.random()*5) + 1;
+// console.log(random);
+
+let random = Math.floor(Math.random()*5) + 20;
+console.log(random);
+
+
 
 
 
