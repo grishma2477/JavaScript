@@ -430,24 +430,40 @@
 //     }
 // }
 
-let array = [7,9,0,-2];
-let ans = array.slice(0,3);
-console.log(ans);
+// let array = [7,9,0,-2];
+// let ans = array.slice(0,3);
+// console.log(ans);
 
-let ans1 = array.slice(1,4);
-console.log(ans1);
+// let ans1 = array.slice(1,4);
+// console.log(ans1);
 
-let string = prompt("Please enter your name");
-if (string == 0){
-    console.log("String is blank"); 
-}
-else{
-    console.log("string is not blank");
-}
+// let string = prompt("Please enter your name");
+// if (string == 0){
+//     console.log("String is blank"); 
+// }
+// else{
+//     console.log("string is not blank");
+// }
 
 // Write a JavaScript program
 // to test whether the character at the given(character)
 // indexislowercase.
+
+// let student = {
+//     name: "Grishma",
+//     age: 19,
+//     marks: 99,
+//     city: "Sydney"
+// };
+// console.log(student);
+
+const post = {
+    username: "kandelgrishma2477@gmail.com",
+    content: "This is my first post.",
+    likes: 150,
+    reposts: 5
+}
+console.log(post);
 
 
 
