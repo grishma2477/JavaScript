@@ -484,30 +484,51 @@
 // console.log(obj);
 // console.log(obj[1]);
 
-const student = {
-    name: "Grishma",
-    age: 19,
-    marks: 96.4,
-    city: "Sydney"
-};
+// const student = {
+//     name: "Grishma",
+//     age: 19,
+//     marks: 96.4,
+//     city: "Sydney"
+// };
 
-console.log(student.city);
-student.city = "Mumbai";
-console.log(student.city);
-console.log(student);
-console.log(student.gender);
-student.gender = "female";
-console.log(student.gender);
-console.log(student);
-student.marks = "A";
-console.log(student.marks);
-console.log(student);
-student.marks = [89,99];
-console.log(student.marks);
-console.log(student);
-let ans = delete student.marks;
-console.log(ans);
-console.log(student);
+// console.log(student.city);
+// student.city = "Mumbai";
+// console.log(student.city);
+// console.log(student);
+// console.log(student.gender);
+// student.gender = "female";
+// console.log(student.gender);
+// console.log(student);
+// student.marks = "A";
+// console.log(student.marks);
+// console.log(student);
+// student.marks = [89,99];
+// console.log(student.marks);
+// console.log(student);
+// let ans = delete student.marks;
+// console.log(ans);
+// console.log(student);
+
+const classInfo = {
+    grishma: {
+        grade: "A+",
+        marks: 98
+    },
+    sandip: {
+        grade: "A",
+        marks: 96
+    }
+};
+console.log(classInfo);
+console.log(classInfo.grishma);
+console.log(classInfo.sandip.marks);
+classInfo.grishma.marks = 100;
+console.log(classInfo.grishma.marks);
+console.log(classInfo.grishma.marks);
+
+
+
+
 
 
 
