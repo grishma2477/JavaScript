@@ -457,13 +457,22 @@
 // };
 // console.log(student);
 
-const post = {
-    username: "kandelgrishma2477@gmail.com",
-    content: "This is my first post.",
-    likes: 150,
-    reposts: 5
+// const post = {
+//     username: "kandelgrishma2477@gmail.com",
+//     content: "This is my first post.",
+//     likes: 150,
+//     reposts: 5
+// }
+// console.log(post);
+
+let student = {
+    name: "Grishma",
+    age: 19
 }
-console.log(post);
+console.log(student["name"]);
+console.log(student.age);
+
+
 
 
 
