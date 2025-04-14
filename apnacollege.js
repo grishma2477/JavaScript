@@ -509,22 +509,47 @@
 // console.log(ans);
 // console.log(student);
 
-const classInfo = {
-    grishma: {
-        grade: "A+",
-        marks: 98
+// const classInfo = {
+//     grishma: {
+//         grade: "A+",
+//         marks: 98
+//     },
+//     sandip: {
+//         grade: "A",
+//         marks: 96
+//     }
+// };
+// console.log(classInfo);
+// console.log(classInfo.grishma);
+// console.log(classInfo.sandip.marks);
+// classInfo.grishma.marks = 100;
+// console.log(classInfo.grishma.marks);
+// console.log(classInfo.grishma.marks);
+
+const classInfo = [
+    {
+        name: "grishma",
+        age: 19,
+        marks: 98,
+        city: "Sydney"
     },
-    sandip: {
-        grade: "A",
-        marks: 96
+    {
+        name: "sandip",
+        age: 24,
+        marks: 100,
+        city: "Sydney"
     }
-};
+];
 console.log(classInfo);
-console.log(classInfo.grishma);
-console.log(classInfo.sandip.marks);
-classInfo.grishma.marks = 100;
-console.log(classInfo.grishma.marks);
-console.log(classInfo.grishma.marks);
+console.log(classInfo[0]);
+console.log(classInfo[0].marks);
+console.log(classInfo[1]);
+console.log(classInfo[1].age);
+console.log(classInfo);
+
+
+
+
 
 
 
