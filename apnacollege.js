@@ -624,11 +624,18 @@
 // printName();
 // printName();
 
-function printPoem(){
-    console.log("Twinkle Twinkle little star");
-    console.log("how I wonder what you are");
+// function printPoem(){
+//     console.log("Twinkle Twinkle little star");
+//     console.log("how I wonder what you are");
+// }
+// printPoem();
+
+function rollDice(){
+    let random = Math.floor(Math.random()*6) + 1;
+    console.log(random);  
 }
-printPoem();
+rollDice();
+rollDice();
 
  
 
