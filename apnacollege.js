@@ -812,9 +812,12 @@
 //     console.log("Apna College");
 // }, 4000);
 
-setInterval (() => {
+let id = setInterval (() => {
     console.log("Apna College");
-}, 4000);
+}, 2000);
+
+console.log(id);
+
 
 
 
