@@ -564,27 +564,53 @@
 // let random = Math.floor(Math.random()*5) + 20;
 // console.log(random);
 
-const max = prompt("Enter the maximum number");
-const random = Math.floor(Math.random()*max) + 1;
-let guess = prompt("guess the number");
+// const max = prompt("Enter the maximum number");
+// const random = Math.floor(Math.random()*max) + 1;
+// let guess = prompt("guess the number");
 
-while(true){
-    if(guess=="quit"){
-        console.log("user quit");
-        break;
-    }
+// while(true){
+//     if(guess=="quit"){
+//         console.log("user quit");
+//         break;
+//     }
 
-    if (guess==random){
-        console.log("You are right. Congrats!");
-        break;
-    }elseif (guess<random){
-        guess = prompt("Your guess was too small. Please try again.");
-    }
-    else if (guess>random){
-        guess = prompt("Your guess was too large.");
-    }
-}
+//     if (guess==random){
+//         console.log("You are right. Congrats!");
+//         break;
+//     }elseif (guess<random){
+//         guess = prompt("Your guess was too small. Please try again.");
+//     }
+//     else if (guess>random){
+//         guess = prompt("Your guess was too large.");
+//     }
+// }
 
+const num = Math.random();
+let ans = num * 6
+let total = Math.floor(ans);
+let random = total + 1;
+console.log(random);
+
+let car = {
+    name: "BMW",
+    color: "Black",
+    number: 8888
+};
+console.log(car.name);
+
+
+let person = {
+    name: "Sandip",
+    age: 25,
+    city: "Sydney"
+};
+console.log(person.city);
+ person.city = "New York";
+ console.log(person.city);
+ person.country = "United States";
+ console.log(person);
+ 
+ 
 
 
 
