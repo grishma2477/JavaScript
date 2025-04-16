@@ -656,6 +656,13 @@ function calcAvg(a,b,c){
 }
 calcAvg(3,3,3);
 
+function printTable(n){
+    for (let i = n; i<=n*10; i+=n){
+        console.log(i);
+        
+    }
+}
+printTable(2);
 
 
  
