@@ -585,31 +585,45 @@
 //     }
 // }
 
-const num = Math.random();
-let ans = num * 6
-let total = Math.floor(ans);
-let random = total + 1;
-console.log(random);
+// const num = Math.random();
+// let ans = num * 6
+// let total = Math.floor(ans);
+// let random = total + 1;
+// console.log(random);
 
-let car = {
-    name: "BMW",
-    color: "Black",
-    number: 8888
-};
-console.log(car.name);
+// let car = {
+//     name: "BMW",
+//     color: "Black",
+//     number: 8888
+// };
+// console.log(car.name);
 
 
-let person = {
-    name: "Sandip",
-    age: 25,
-    city: "Sydney"
-};
-console.log(person.city);
- person.city = "New York";
- console.log(person.city);
- person.country = "United States";
- console.log(person);
- 
+// let person = {
+//     name: "Sandip",
+//     age: 25,
+//     city: "Sydney"
+// };
+// console.log(person.city);
+//  person.city = "New York";
+//  console.log(person.city);
+//  person.country = "United States";
+//  console.log(person);
+
+function hello(){
+    console.log("Hello");  
+}
+hello();
+hello();
+
+function printName(){
+    console.log("ApnaCollege");
+    console.log("Grishma Kandel");
+}
+
+printName();
+printName();
+
  
 
 
