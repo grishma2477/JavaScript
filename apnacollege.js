@@ -752,15 +752,28 @@
 // console.log(greet);
 // changeGreet();
 
-let name = "grishma";
-let sum = function(a,b){
-    return a + b;
-}
-let hello = function(){
-    console.log("Hello");
-}
-hello = function(){
-    console.log("Namaste");
+// let name = "grishma";
+// let sum = function(a,b){
+//     return a + b;
+// }
+// let hello = function(){
+//     console.log("Hello");
+// }
+// hello = function(){
+//     console.log("Namaste");
+// }
+
+const calculator = {
+     num : 55,
+    add: function(a,b){
+        return a + b;
+    },
+    sub: function(a,b){
+        return a - b;
+    },
+    mul: function(a,b){
+        return a * b;
+    }
 }
 
 
