@@ -685,14 +685,26 @@
 // }
 // console.log(sum(8,6));
 
-function printSum(n){
-    let sum = 0;
-    for (let i=1; i<=n; i++) {
-        sum = sum + i;
-    }
-    return sum;
+// function printSum(n){
+//     let sum = 0;
+//     for (let i=1; i<=n; i++) {
+//         sum = sum + i;
+//     }
+//     return sum;
+// }
+// console.log(printSum(4));
+
+let greetingArray = ["Hi", "Hello", "Bye", "!"];
+function concat(arr){
+let result="";
+for(let i = 0; i<greetingArray.length; i++){
+    result += greetingArray[i];
 }
-console.log(printSum(4));
+return result;
+}
+
+const dekoResult = 
+console.log(concat(greetingArray))
 
 
 
