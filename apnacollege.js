@@ -637,17 +637,24 @@
 // rollDice();
 // rollDice();
 
-function printName(name, age){
-    console.log(`${name}'s age is ${age}.`);
-}
+// function printName(name, age){
+//     console.log(`${name}'s age is ${age}.`);
+// }
 
-printName("Grishma", 19);
-printName("Sandip");
+// printName("Grishma", 19);
+// printName("Sandip");
 
-function sum(a,b){
-    console.log(a+b);
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// sum(8,6);
+
+function calcAvg(a,b,c){
+  let avg =(a+b+c)/3;
+  console.log(avg);
+  
 }
-sum(8,6);
+calcAvg(3,3,3);
 
 
 
