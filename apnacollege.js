@@ -800,11 +800,21 @@
 // console.log("Hello2");
 // console.log("Hello2");
 
-const sum = (a,b) => {
-    console.log(a+b);
-}
+// const sum = (a,b) => {
+//     console.log(a+b);
+// }
 
-const mul = (a,b ) => a * b;
+// const mul = (a,b ) => a * b;
+
+console.log("hi there!");
+
+setTimeout (() => {
+    console.log("Apna College");
+}, 4000);
+
+
+
+
 
 
 
