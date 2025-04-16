@@ -610,19 +610,25 @@
 //  person.country = "United States";
 //  console.log(person);
 
-function hello(){
-    console.log("Hello");  
-}
-hello();
-hello();
+// function hello(){
+//     console.log("Hello");  
+// }
+// hello();
+// hello();
 
-function printName(){
-    console.log("ApnaCollege");
-    console.log("Grishma Kandel");
-}
+// function printName(){
+//     console.log("ApnaCollege");
+//     console.log("Grishma Kandel");
+// }
 
-printName();
-printName();
+// printName();
+// printName();
+
+function printPoem(){
+    console.log("Twinkle Twinkle little star");
+    console.log("how I wonder what you are");
+}
+printPoem();
 
  
 
