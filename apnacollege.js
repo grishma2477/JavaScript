@@ -812,16 +812,90 @@
 //     console.log("Apna College");
 // }, 4000);
 
-let id = setInterval (() => {
-    console.log("Apna College");
-}, 2000);
+// let id = setInterval (() => {
+//     console.log("Apna College");
+// }, 2000);
 
-console.log(id);
+// console.log(id);
 
+// const student = {
+//     name: "Grishma",
+//     marks: 100,
+//     age: 19,
+//     prop: this, // global scope
+//     getName: function(){
+//         return this.name;
+//     },
+//     getMarks: () => {
+//         console.log(this);
+//         return this.marks;
+//     }
+// };
 
+// const a = 5; // global scope.
 
+// let arr = [1,2,3,4,5];
 
+// arr.forEach((el) => {
+//     console.log(el);
+    
+// });
 
+// arr.forEach(function(el){
+//     console.log(el);
+    
+// });
+
+// let print = function (el){
+//     console.log(el);
+    
+// }
+// arr.forEach(print);
+
+// let arr = [{
+//     name: "grishma",
+//     age: 19,
+// }, {
+//     name: "sandip",
+//     age: 25,
+// }, {
+//     name: "rajat",
+//     age: 30,
+// }];
+
+// arr.forEach((student) => {
+//     console.log(student.age)
+// });
+
+// let num = [1,2,3,4];
+// let double = num.map((el)=>{
+//     return el * el;
+// });
+
+// let arr = [{
+//     name: "grishma",
+//     age: 19,
+//     marks: 100,
+// }, {
+//     name: "sandip",
+//     age: 25,
+//     marks: 98,
+// }, {
+//     name: "rajat",
+//     age: 30,
+//     marks: 96,
+// }];
+// let gpa = arr.map((el) => {
+//     return el.marks / 10;
+// });
+
+// console.log(gpa);
+
+// let nums = [1,2,3,4,5,6,7,8];
+// let ans = nums.filter((el) =>{
+//     return el % 2 == 0;
+// });
+// console.log(ans);
 
 
 
