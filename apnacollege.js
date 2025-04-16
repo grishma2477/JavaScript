@@ -630,12 +630,26 @@
 // }
 // printPoem();
 
-function rollDice(){
-    let random = Math.floor(Math.random()*6) + 1;
-    console.log(random);  
+// function rollDice(){
+//     let random = Math.floor(Math.random()*6) + 1;
+//     console.log(random);  
+// }
+// rollDice();
+// rollDice();
+
+function printName(name, age){
+    console.log(`${name}'s age is ${age}.`);
 }
-rollDice();
-rollDice();
+
+printName("Grishma", 19);
+printName("Sandip");
+
+function sum(a,b){
+    console.log(a+b);
+}
+sum(8,6);
+
+
 
  
 
