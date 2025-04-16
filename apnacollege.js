@@ -776,18 +776,31 @@
 //     }
 // }
 
-const student = {
-    name: "Grishma",
-    age: 19,
-    eng: 100,
-    math: 100,
-    getAvg() {
-        console.log(this);
+// const student = {
+//     name: "Grishma",
+//     age: 19,
+//     eng: 100,
+//     math: 100,
+//     getAvg() {
+//         console.log(this);
         
-        let avg = (this.eng + this.math + this.phy)/3;
-        console.log(`${this.name} got avh marks = ${avg}`);
-    }
+//         let avg = (this.eng + this.math + this.phy)/3;
+//         console.log(`${this.name} got avh marks = ${avg}`);
+//     }
+// }
+
+console.log("Hello");
+console.log("Hello");
+let a = 5;
+try {
+    console.log(a);
+} catch {
+  console.log("caught and error.... a is not defined.");
 }
+console.log("Hello2");
+console.log("Hello2");
+
+
 
 
 
