@@ -649,20 +649,41 @@
 // }
 // sum(8,6);
 
-function calcAvg(a,b,c){
-  let avg =(a+b+c)/3;
-  console.log(avg);
+// function calcAvg(a,b,c){
+//   let avg =(a+b+c)/3;
+//   console.log(avg);
   
-}
-calcAvg(3,3,3);
+// }
+// calcAvg(3,3,3);
 
-function printTable(n){
-    for (let i = n; i<=n*10; i+=n){
-        console.log(i);
+// function printTable(n){
+//     for (let i = n; i<=n*10; i+=n){
+//         console.log(i);
         
-    }
+//     }
+// }
+// printTable(2);
+
+// function sum(a,b){
+//     return a+b ;
+// }
+// let s = sum(8,6);
+// console.log(s);
+
+// function sum(a,b){
+//     return(a+b);
+// }
+// console.log(sum(sum(1,2), 3));
+
+function sum(a,b){
+   console.log("hello");
+   console.log("hello1");
+   return a + b;
+   console.log("hello3");
+   console.log("hello4");
+   
 }
-printTable(2);
+console.log(sum(8,6));
 
 
  
