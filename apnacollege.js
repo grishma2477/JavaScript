@@ -725,6 +725,21 @@
 // }
 // console.log(i);
 
+function outerFunc(){
+    let x = 5;
+    let y = 6;
+    console.log("inner");
+    
+    function innerFunc(){
+        console.log(x);
+    }
+    console.log("skipped")
+    innerFunc();
+    console.log("executing")
+}
+outerFunc();
+
+
 
 
 
