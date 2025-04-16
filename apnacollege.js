@@ -705,13 +705,26 @@
 
 // const dekoResult = 
 // console.log(concat(greetingArray))
-let sum = 54; // global scope
-function calSum(a,b){
-    let sum = a+b; //function scope
-    console.log(sum);
-}
-calSum(1,2);
-console.log(sum);
+
+
+// let sum = 54; // ?global scope
+// function calSum(a,b){
+//     let sum = a+b; //?function scope
+//     console.log(sum);
+// }
+// calSum(1,2);
+// console.log(sum);
+
+// {
+//     let a = 25; //? block scope. 
+// }
+// console.log(a);
+
+// for(let i =1; i<=5; i++){
+//     console.log(i); // ?block scope. 
+// }
+// console.log(i);
+
 
 
 
