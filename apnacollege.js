@@ -763,16 +763,29 @@
 //     console.log("Namaste");
 // }
 
-const calculator = {
-     num : 55,
-    add: function(a,b){
-        return a + b;
-    },
-    sub: function(a,b){
-        return a - b;
-    },
-    mul: function(a,b){
-        return a * b;
+// const calculator = {
+//      num : 55,
+//     add: function(a,b){
+//         return a + b;
+//     },
+//     sub: function(a,b){
+//         return a - b;
+//     },
+//     mul: function(a,b){
+//         return a * b;
+//     }
+// }
+
+const student = {
+    name: "Grishma",
+    age: 19,
+    eng: 100,
+    math: 100,
+    getAvg() {
+        console.log(this);
+        
+        let avg = (this.eng + this.math + this.phy)/3;
+        console.log(`${this.name} got avh marks = ${avg}`);
     }
 }
 
