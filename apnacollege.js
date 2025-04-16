@@ -694,18 +694,24 @@
 // }
 // console.log(printSum(4));
 
-let greetingArray = ["Hi", "Hello", "Bye", "!"];
-function concat(arr){
-let result="";
-for(let i = 0; i<greetingArray.length; i++){
-    result += greetingArray[i];
-}
-return result;
-}
+// let greetingArray = ["Hi", "Hello", "Bye", "!"];
+// function concat(arr){
+// let result="";
+// for(let i = 0; i<greetingArray.length; i++){
+//     result += greetingArray[i];
+// }
+// return result;
+// }
 
-const dekoResult = 
-console.log(concat(greetingArray))
-
+// const dekoResult = 
+// console.log(concat(greetingArray))
+let sum = 54; // global scope
+function calSum(a,b){
+    let sum = a+b; //function scope
+    console.log(sum);
+}
+calSum(1,2);
+console.log(sum);
 
 
 
