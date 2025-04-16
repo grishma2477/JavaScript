@@ -789,16 +789,21 @@
 //     }
 // }
 
-console.log("Hello");
-console.log("Hello");
-let a = 5;
-try {
-    console.log(a);
-} catch {
-  console.log("caught and error.... a is not defined.");
+// console.log("Hello");
+// console.log("Hello");
+// let a = 5;
+// try {
+//     console.log(a);
+// } catch {
+//   console.log("caught and error.... a is not defined.");
+// }
+// console.log("Hello2");
+// console.log("Hello2");
+
+const sum = (a,b) => {
+    console.log(a+b);
 }
-console.log("Hello2");
-console.log("Hello2");
+
 
 
 
