@@ -675,15 +675,26 @@
 // }
 // console.log(sum(sum(1,2), 3));
 
-function sum(a,b){
-   console.log("hello");
-   console.log("hello1");
-   return a + b;
-   console.log("hello3");
-   console.log("hello4");
+// function sum(a,b){
+//    console.log("hello");
+//    console.log("hello1");
+//    return a + b;
+//    console.log("hello3");
+//    console.log("hello4");
    
+// }
+// console.log(sum(8,6));
+
+function printSum(n){
+    let sum = 0;
+    for (let i=1; i<=n; i++) {
+        sum = sum + i;
+    }
+    return sum;
 }
-console.log(sum(8,6));
+console.log(printSum(4));
+
+
 
 
  
