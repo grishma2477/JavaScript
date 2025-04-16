@@ -806,9 +806,13 @@
 
 // const mul = (a,b ) => a * b;
 
-console.log("hi there!");
+// console.log("hi there!");
 
-setTimeout (() => {
+// setTimeout (() => {
+//     console.log("Apna College");
+// }, 4000);
+
+setInterval (() => {
     console.log("Apna College");
 }, 4000);
 
