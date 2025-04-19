@@ -1004,8 +1004,12 @@ function sum(a, b=2){
     return a+b;
     
 }
- console.log(sum(2,6));
+ console.log(sum(6,10));
  
+ let odd = [1,3,5,7];
+ let even = [2,4,6,8];
+ nums = [...odd, ...even];
+ console.log(nums);
  
 
 
