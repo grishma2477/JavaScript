@@ -1023,8 +1023,21 @@
 //  let obj1 = {...arr};
 //  console.log(obj1);
  
- let obj2 = {..."hello"};
- console.log(obj2);
+//  let obj2 = {..."hello"};
+//  console.log(obj2);
+
+function sum(...args){
+    //arguments
+    for(let i=0; i<args.length; i++){
+        console.log("you gave us:", args[i]);
+    }
+}
+
+function min(){
+    console.log(arguments);
+    console.log(arguments.length);
+    console.log(arguments.push(1));
+}
  
 
  
