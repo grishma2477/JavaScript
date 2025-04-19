@@ -990,15 +990,21 @@
 //  let ans = nums.every((el) => el%10==0);
 //  console.log(ans);
 
- let nums = [10, 20, 30, 40, 2, 4];
- let min = nums.reduce((min,el)=>{
-    if(min<el){
-        return min;
-    }else{
-        return el;
-    }
- })
- console.log(min);
+//  let nums = [10, 20, 30, 40, 2, 4];
+//  let min = nums.reduce((min,el)=>{
+//     if(min<el){
+//         return min;
+//     }else{
+//         return el;
+//     }
+//  })
+//  console.log(min);
+
+function sum(a, b=2){
+    return a+b;
+    
+}
+ console.log(sum(2,6));
  
  
 
