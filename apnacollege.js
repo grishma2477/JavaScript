@@ -1000,16 +1000,25 @@
 //  })
 //  console.log(min);
 
-function sum(a, b=2){
-    return a+b;
+// function sum(a, b=2){
+//     return a+b;
     
-}
- console.log(sum(6,10));
+// }
+//  console.log(sum(6,10));
  
- let odd = [1,3,5,7];
- let even = [2,4,6,8];
- nums = [...odd, ...even];
- console.log(nums);
+//  let odd = [1,3,5,7];
+//  let even = [2,4,6,8];
+//  nums = [...odd, ...even];
+//  console.log(nums);
+
+ const data = {
+email: "grishma@gmail.com",
+password: "abcd",
+ }
+
+ const dataCopy = {...data, id: 19};
+ console.log(dataCopy);
+ 
  
 
 
