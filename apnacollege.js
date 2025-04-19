@@ -897,9 +897,62 @@
 // });
 // console.log(ans);
 
+// let nums = [1,2,3,4];
+// let finalVal = nums.reduce((res,el)=> (res+el));
+// console.log(finalVal);
+
+// hello();
+// function hello(){
+//     console.log("hello world");
+// }
+
+// function inside function
+// const app = () => {
+//     const myFunc = () => {
+//         console.log("hello from myFunc");
+//     }
+//     const addTwo = (num1, num2) =>{
+//         return num1 + num2;
+//     }
+//     const mul = (num1, num2) => num1 * num2;
+//     console.log("inside app");
+//     myFunc();
+// }
+// app();
 
 
+// types of functions
+// function, arrow, expression function,
+// arrow --> no-named function, ananomoyus function, or lambda function
 
+// function namePrinter(func, times) {
+//     let returnedValue = func();
+//     console.log(returnedValue*times);
+// }
+
+// namePrinter(()=>{
+//     return 6;
+// },4)
+
+
+// function moduloDiv(f, dividend){
+//     let returnedVal = f();
+//     if (returnedVal % dividend == 0){
+//         return `Divided by Dividend (${dividend})`;
+//     }else{
+//         return "Not Divided";
+//     }
+// }
+
+// const value = prompt("Enter value")
+// const divi = prompt("Enter dividend")
+// const greet = ()=>{
+//     return value;
+// }
+
+// let b = moduloDiv(greet,divi)
+
+// console.log(b);
 
 
 
