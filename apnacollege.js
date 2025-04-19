@@ -955,8 +955,40 @@
 // console.log(b);
 
 
+// const str = "abcdabcdefgggh";
+
+// function extract(str) {
+//     const box = []
+// for (let i = 0; i<=str.length-1; i++) {
+//     const char = str[i]
+//     if(box.indexOf(char) === -1) {
+//         box.push(char)
+//     }
+// }
+// return box
+// }
+
+// console.log(extract(str));
 
 
+// function countVowel(name) {
+//     const vowelArray = ["a","e","i","o","u"]
+//     let counter = 0
+//     for (let i = 0; i<=name.length-1; i++) {
+//         const char = name[i]
+//         if(vowelArray.indexOf(char) !== -1) {
+//             counter   += 1; 
+//         }
+        
+//     }
+//     return counter;
+// }
+
+// console.log(countVowel("Grishma"));
+
+ let nums = [10,20,30,40];
+ let ans = nums.every((el) => el%10==0);
+ console.log(ans);
  
 
 
