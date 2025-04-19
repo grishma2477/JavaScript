@@ -1018,7 +1018,12 @@ password: "abcd",
 
  const dataCopy = {...data, id: 19};
  console.log(dataCopy);
+
+ let arr = [1,2,3,4,5];
+ let obj1 = {...arr};
+ console.log(obj1);
  
+
  
 
 
