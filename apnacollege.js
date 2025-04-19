@@ -1026,22 +1026,34 @@
 //  let obj2 = {..."hello"};
 //  console.log(obj2);
 
-function sum(...args){
-    //arguments
-    for(let i=0; i<args.length; i++){
-        console.log("you gave us:", args[i]);
-    }
-}
+// function sum(...args){
+//     //arguments
+//     for(let i=0; i<args.length; i++){
+//         console.log("you gave us:", args[i]);
+//     }
+// }
 
-function min(){
-    console.log(arguments);
-    console.log(arguments.length);
-    console.log(arguments.push(1));
-}
+// function min(){
+//     console.log(arguments);
+//     console.log(arguments.length);
+//     console.log(arguments.push(1));
+// }
 
-let names = ["tony", "bruce", "peter","steve"];
-let [winner, runnerUp, ...others] = names;
-console.log(winner, runnerUp, others);
+// let names = ["tony", "bruce", "peter","steve"];
+// let [winner, runnerUp, ...others] = names;
+// console.log(winner, runnerUp, others);
+
+const student = {
+    name: "gk",
+    age: 19,
+    class: 12,
+    subjects: ["english", "maths", "nepali", "science"],
+    username: "gk1234",
+    password: "1234",
+};
+let {username: user, password: pass, city="Mumbai"} = student;
+console.log(student);
+
 
  
 
