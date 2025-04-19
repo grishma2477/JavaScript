@@ -1038,6 +1038,11 @@ function min(){
     console.log(arguments.length);
     console.log(arguments.push(1));
 }
+
+let names = ["tony", "bruce", "peter","steve"];
+let [winner, runnerUp, ...others] = names;
+console.log(winner, runnerUp, others);
+
  
 
  
