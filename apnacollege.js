@@ -1043,16 +1043,16 @@
 // let [winner, runnerUp, ...others] = names;
 // console.log(winner, runnerUp, others);
 
-const student = {
-    name: "gk",
-    age: 19,
-    class: 12,
-    subjects: ["english", "maths", "nepali", "science"],
-    username: "gk1234",
-    password: "1234",
-};
-let {username: user, password: pass, city="Mumbai"} = student;
-console.log(student);
+// const student = {
+//     name: "gk",
+//     age: 19,
+//     class: 12,
+//     subjects: ["english", "maths", "nepali", "science"],
+//     username: "gk1234",
+//     password: "1234",
+// };
+// let {username: user, password: pass, city="Mumbai"} = student;
+// console.log(student);
 
 
  
