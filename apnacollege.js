@@ -1075,32 +1075,59 @@
 
  
 // console.dir(document);
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click", function(){
-    let h3 = document.querySelector("h3");
-    let randomColor = getRandomColor();
-    h3.innerText = randomColor;
+// btn.addEventListener("click", function(){
+//     let h3 = document.querySelector("h3");
+//     let randomColor = getRandomColor();
+//     h3.innerText = randomColor;
 
-    let div = document.querySelector("div");
-    div.style.backgroundColor = randomColor;
-    console.log("Color Updated.");
+//     let div = document.querySelector("div");
+//     div.style.backgroundColor = randomColor;
+//     console.log("Color Updated.");
     
-});
+// });
 
-function getRandomColor(){
-    let red = Math.floor(Math.random()*255);
-    let green = Math.floor(Math.random()*255);
-    let blue = Math.floor(Math.random()*255);
+// function getRandomColor(){
+//     let red = Math.floor(Math.random()*255);
+//     let green = Math.floor(Math.random()*255);
+//     let blue = Math.floor(Math.random()*255);
 
-    let color = `rgb(${red}, ${green}, ${blue})`
-    return color;
+//     let color = `rgb(${red}, ${green}, ${blue})`
+//     return color;
 
+// }
+
+
+// let p = document.querySelector("p");
+
+// p.addEventListener("click", function(){
+//     console.log("Para was clicked.");
+// });
+ 
+// let box = document.querySelector(".box");
+// box.addEventListener("mouseenter", function(){
+//     console.log("mouse inside box.");
+// });
+
+
+function hello(){
+    console.log("inside hello function.");
+    
+    console.log("hello");
+    
 }
 
- 
+function demo(){
+    console.log("calling hello function.");
+    
+    hello();
+}
 
+console.log("calling demo function.");
 
+demo();
+console.log("Done.Bye!.");
 
 
 
