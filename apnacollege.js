@@ -1194,16 +1194,18 @@ function saveToDb(data){
     });
 }
 
-// let request = saveToDb("apna college"); // req = promise object.
-// request.then(()=> {
-//     console.log("promise was resolved.");
+let request = saveToDb("apna college"); // req = promise object.
+request.then(()=> {
+    console.log("promise was resolved.");
+    console.log(request);
     
-// })
+})
 
-// .catch(()=> {
-//     console.log("promise was rejected.");
+.catch(()=> {
+    console.log("promise was rejected.");
+    console.log(request);
     
-// })
+})
 
 
 
