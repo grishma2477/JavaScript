@@ -1193,20 +1193,23 @@ function saveToDb(data){
         }
     });
 }
-
-let request = saveToDb("apna college"); // req = promise object.
-request.then(()=> {
+saveToDb("apna college") // req = promise object.
+.then((result)=> {
     console.log("data 1 saved, promise was resolved.");
+    console.log("result of promise", result);
+    
     return saveToDb("helloworld")
 })
-.then(()=>{
+.then((result)=>{
     console.log("data2 saved.");
+    console.log("result of promise", result);
     
 })
 
-.catch(()=> {
+.catch((error)=> {
     console.log("promise was rejected.");
-    console.log(request);
+  console.log("error of promise", error);
+  
     
 })
 
