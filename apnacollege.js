@@ -1196,9 +1196,12 @@ function saveToDb(data){
 
 let request = saveToDb("apna college"); // req = promise object.
 request.then(()=> {
-    console.log("promise was resolved.");
-    console.log(request);
-    
+    console.log("data 1 saved, promise was resolved.");
+    saveToDb("helloworld")
+    .then(()=>{
+        console.log("data2 saved.");
+        
+    })
 })
 
 .catch(()=> {
