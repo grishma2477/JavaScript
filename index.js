@@ -8,3 +8,8 @@ app.listen(port, ()=> {
     console.log(`app is listening on port ${port}.`);
     
 });
+
+app.use((req,res)=>{
+    console.log("request recieved");
+    
+});
