@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 
-console.dir(app);
+// console.dir(app);
 
-let port = 3000; // 8080
+let port = 8080; // 3000
 app.listen(port, ()=> {
     console.log(`app is listening on port ${port}.`);
     
@@ -32,9 +32,9 @@ app.get("/orange", (req,res) => {
     res.send("you contacted orange path.")
 });
 
-app.get("*", (req,res) =>{
-    res.send("this path doesn't exist.")
-});
+// app.get("*", (req,res) =>{
+//     res.send("this path doesn't exist.")
+// });
 
 app.post("/", (req,res) =>{
     res.send("you sent a post request to root.")
